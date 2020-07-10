@@ -6,7 +6,7 @@
 }
 
 .app-summary {
-  margin: 3em -0.7em 0 -0.7em;
+  margin: 0 -0.7em;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -85,4 +85,78 @@
 .app-chart__main-title {
   font-size: 1.6rem;
   margin-bottom: 2em;
+}
+
+.app-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 3em;
+}
+
+.app-location {
+  width: 30%;
+  margin-left: 2em;
+}
+
+.app-location__list {
+  margin-top: 1em;
+}
+
+.app-location__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.2em;
+}
+
+.app-location__item-left {
+  width: 80%;
+}
+
+.app-location__item-title {
+  margin-bottom: 0.4em;
+  text-transform: capitalize;
+}
+
+.app-location__item-bar {
+  border-radius: 2px;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+}
+
+.app-location__control {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+  div {
+    border: solid 1px $gray;
+    border-radius: 5px;
+  }
+  button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0.5em;
+    border-right: solid 1px $gray;
+    &:last-child {
+      border-right: none;
+    }
+    &:focus {
+      outline: none;
+    }
+    &.--confirmed {
+      color: white;
+      background-color: $light-blue;
+    }
+    &.--recovered {
+      color: white;
+      background-color: $green;
+    }
+    &.--deaths {
+      color: white;
+      background-color: $red;
+    }
+  }
 }

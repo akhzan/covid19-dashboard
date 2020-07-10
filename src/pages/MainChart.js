@@ -3,8 +3,8 @@
 import React from 'react'
 import {
   CartesianGrid,
-  AreaChart,
-  Area,
+  LineChart,
+  Line,
   XAxis,
   YAxis,
   Tooltip,
@@ -18,7 +18,7 @@ const MainChart = ({ data }) => {
       <div className="app-card app-chart__main">
         <div className="app-chart__main-title">Daily Change</div>
         <ResponsiveContainer width="100%" height={350}>
-          <AreaChart margin={{ left: -10 }} data={data}>
+          <LineChart margin={{ left: -10 }} data={data}>
             <XAxis
               axisLine={false}
               tickLine={false}
@@ -37,7 +37,7 @@ const MainChart = ({ data }) => {
               strokeDasharray="3 3"
             />
             {/* {children} */}
-            <Area
+            <Line
               strokeWidth={2}
               dot={{ r: 2 }}
               name="Confirmed"
@@ -47,7 +47,7 @@ const MainChart = ({ data }) => {
               fill="#F7F8FF"
               activeDot={{ r: 6 }}
             />
-            <Area
+            <Line
               strokeWidth={2}
               dot={{ r: 2 }}
               name="Recovered"
@@ -57,7 +57,7 @@ const MainChart = ({ data }) => {
               fill="#F7F8FF"
               activeDot={{ r: 6 }}
             />
-            <Area
+            <Line
               strokeWidth={2}
               dot={{ r: 2 }}
               name="Deaths"
@@ -67,7 +67,7 @@ const MainChart = ({ data }) => {
               fill="#F7F8FF"
               activeDot={{ r: 6 }}
             />
-            <Area
+            <Line
               strokeWidth={2}
               dot={{ r: 2 }}
               name="On Treatment"
@@ -79,13 +79,13 @@ const MainChart = ({ data }) => {
             />
             <Legend />
             <Tooltip isAnimationActive={false} />
-          </AreaChart>
+          </LineChart>
         </ResponsiveContainer>
       </div>
       <div className="app-card app-chart__main">
         <div className="app-chart__main-title">Cummulative</div>
         <ResponsiveContainer width="100%" height={350}>
-          <AreaChart margin={{ left: -10 }} data={data}>
+          <LineChart margin={{ left: -10 }} data={data}>
             <XAxis
               axisLine={false}
               tickLine={false}
@@ -100,7 +100,7 @@ const MainChart = ({ data }) => {
               strokeDasharray="3 3"
             />
             {/* {children} */}
-            <Area
+            <Line
               strokeWidth={2}
               dot={{ r: 2 }}
               name="Confirmed"
@@ -110,7 +110,7 @@ const MainChart = ({ data }) => {
               fill="#F7F8FF"
               activeDot={{ r: 6 }}
             />
-            <Area
+            <Line
               strokeWidth={2}
               dot={{ r: 2 }}
               name="Recovered"
@@ -120,7 +120,7 @@ const MainChart = ({ data }) => {
               fill="#F7F8FF"
               activeDot={{ r: 6 }}
             />
-            <Area
+            <Line
               strokeWidth={2}
               dot={{ r: 2 }}
               name="Deaths"
@@ -130,7 +130,7 @@ const MainChart = ({ data }) => {
               fill="#F7F8FF"
               activeDot={{ r: 6 }}
             />
-            <Area
+            <Line
               strokeWidth={2}
               dot={{ r: 2 }}
               name="On Treatment"
@@ -142,7 +142,7 @@ const MainChart = ({ data }) => {
             />
             <Legend />
             <Tooltip isAnimationActive={false} />
-          </AreaChart>
+          </LineChart>
         </ResponsiveContainer>
       </div>
     </div>

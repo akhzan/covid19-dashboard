@@ -3,7 +3,9 @@ import React from 'react'
 import Title from './Title'
 import Summary from './Summary'
 import MainChart from './MainChart'
+import Location from './Location'
 import update from '../data/update.json'
+import location from '../data/location.json'
 
 const App = () => {
   const { total, penambahan, harian } = update.update
@@ -21,9 +23,12 @@ const App = () => {
   return (
     <div className="app">
       <Title />
-      <div className="app-left">
-        <Summary total={total} penambahan={penambahan} />
-        <MainChart data={data} />
+      <div className="app-content">
+        <div className="app-left">
+          <Summary total={total} penambahan={penambahan} />
+          <MainChart data={data} />
+        </div>
+        <Location locations={location.list_data} />
       </div>
     </div>
   )
