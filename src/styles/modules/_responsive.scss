@@ -1,0 +1,27 @@
+$break-small: 768px;
+$break-medium: 992px;
+$break-large: 1200px;
+
+@mixin respond-to($media) {
+	@if $media == xs {
+		// Extra small devices (portrait phones, less than 768px)
+		@media only screen and (max-width: $break-small) {
+			@content;
+		}
+	} @else if $media == sm {
+		// Small devices (landscape phones, 768px and up)
+		@media only screen and (min-width: $break-small + 1) and (max-width: $break-medium - 1) {
+			@content;
+		}
+	} @else if $media == md {
+		// Medium devices (tablets, 992px and up)
+		@media only screen and (min-width: $break-medium) and (max-width: $break-large - 1) {
+			@content;
+		}
+	} @else if $media == lg {
+		// Extra large devices (large desktops, 1200px and up)
+		@media only screen and (min-width: $break-extra-large) {
+			@content;
+		}
+	}
+}
