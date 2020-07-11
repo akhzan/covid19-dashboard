@@ -1,12 +1,13 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
+import dayjs from 'dayjs'
 
-const Title = () => {
+const Title = ({ date }) => {
   return (
     <div className="app-title">
       <div className="app-title__title --bold">Covid 19 - Indonesia</div>
       <div className="app-title__description">
-        Last updated data: 07/07/2020
+        Last updated data: {dayjs(date).format('DD/MM/YYYY')}
       </div>
       <div className="app-title__description">
         The purpose of this page is for experimental research only. If

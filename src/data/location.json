@@ -57,6 +57,11 @@
     "lokasi": {
       "lon": 112.73294137529294,
       "lat": -7.72334557860008
+    },
+    "penambahan": {
+      "positif": 335,
+      "sembuh": 104,
+      "meninggal": 33
     }
   }, {
     "key": "DKI JAKARTA",
@@ -112,6 +117,11 @@
     "lokasi": {
       "lon": 106.83611829006928,
       "lat": -6.204698991169558
+    },
+    "penambahan": {
+      "positif": 232,
+      "sembuh": 373,
+      "meninggal": 0
     }
   }, {
     "key": "SULAWESI SELATAN",
@@ -167,6 +177,11 @@
     "lokasi": {
       "lon": 120.16205590507643,
       "lat": -3.7310807143894262
+    },
+    "penambahan": {
+      "positif": 86,
+      "sembuh": 82,
+      "meninggal": 1
     }
   }, {
     "key": "JAWA TENGAH",
@@ -222,6 +237,11 @@
     "lokasi": {
       "lon": 110.20111493755839,
       "lat": -7.259097176704969
+    },
+    "penambahan": {
+      "positif": 127,
+      "sembuh": 55,
+      "meninggal": 12
     }
   }, {
     "key": "JAWA BARAT",
@@ -277,6 +297,11 @@
     "lokasi": {
       "lon": 107.60370834146391,
       "lat": -6.920432082789247
+    },
+    "penambahan": {
+      "positif": 128,
+      "sembuh": 16,
+      "meninggal": 1
     }
   }, {
     "key": "KALIMANTAN SELATAN",
@@ -332,6 +357,11 @@
     "lokasi": {
       "lon": 115.43857828622947,
       "lat": -2.993594978837896
+    },
+    "penambahan": {
+      "positif": 64,
+      "sembuh": 15,
+      "meninggal": 0
     }
   }, {
     "key": "SUMATERA SELATAN",
@@ -387,6 +417,11 @@
     "lokasi": {
       "lon": 104.16946472724611,
       "lat": -3.216211808074814
+    },
+    "penambahan": {
+      "positif": 71,
+      "sembuh": 22,
+      "meninggal": 0
     }
   }, {
     "key": "PAPUA",
@@ -442,6 +477,11 @@
     "lokasi": {
       "lon": 138.69602998221484,
       "lat": -4.666209529820138
+    },
+    "penambahan": {
+      "positif": 7,
+      "sembuh": 48,
+      "meninggal": 2
     }
   }, {
     "key": "BALI",
@@ -497,6 +537,11 @@
     "lokasi": {
       "lon": 115.13171361168976,
       "lat": -8.369471688211744
+    },
+    "penambahan": {
+      "positif": 51,
+      "sembuh": 7,
+      "meninggal": 3
     }
   }, {
     "key": "SUMATERA UTARA",
@@ -552,6 +597,11 @@
     "lokasi": {
       "lon": 99.05196442214273,
       "lat": 2.1918944531362854
+    },
+    "penambahan": {
+      "positif": 20,
+      "sembuh": 7,
+      "meninggal": 4
     }
   }, {
     "key": "BANTEN",
@@ -607,6 +657,11 @@
     "lokasi": {
       "lon": 106.10900433346703,
       "lat": -6.45673638769843
+    },
+    "penambahan": {
+      "positif": 12,
+      "sembuh": 4,
+      "meninggal": 0
     }
   }, {
     "key": "NUSA TENGGARA BARAT",
@@ -662,6 +717,11 @@
     "lokasi": {
       "lon": 117.50862565333749,
       "lat": -8.606998865706263
+    },
+    "penambahan": {
+      "positif": 32,
+      "sembuh": 7,
+      "meninggal": 0
     }
   }, {
     "key": "SULAWESI UTARA",
@@ -717,6 +777,11 @@
     "lokasi": {
       "lon": 124.52123964154268,
       "lat": 1.25963821247857
+    },
+    "penambahan": {
+      "positif": 10,
+      "sembuh": 31,
+      "meninggal": 1
     }
   }, {
     "key": "KALIMANTAN TENGAH",
@@ -772,6 +837,11 @@
     "lokasi": {
       "lon": 113.41765363593119,
       "lat": -1.6024846527267131
+    },
+    "penambahan": {
+      "positif": 8,
+      "sembuh": 0,
+      "meninggal": 0
     }
   }, {
     "key": "MALUKU UTARA",
@@ -827,6 +897,11 @@
     "lokasi": {
       "lon": 127.53910724599248,
       "lat": 0.21203694908578316
+    },
+    "penambahan": {
+      "positif": 0,
+      "sembuh": 0,
+      "meninggal": 0
     }
   }, {
     "key": "MALUKU",
@@ -882,6 +957,11 @@
     "lokasi": {
       "lat": -3.192572,
       "lon": 129.576792
+    },
+    "penambahan": {
+      "positif": 10,
+      "sembuh": 4,
+      "meninggal": 0
     }
   }, {
     "key": "SUMATERA BARAT",
@@ -937,6 +1017,11 @@
     "lokasi": {
       "lon": 100.46506235673566,
       "lat": -0.850253225078247
+    },
+    "penambahan": {
+      "positif": 0,
+      "sembuh": 2,
+      "meninggal": 0
     }
   }, {
     "key": "KALIMANTAN TIMUR",
@@ -992,6 +1077,11 @@
     "lokasi": {
       "lon": 116.46844046560851,
       "lat": 0.4538580295500849
+    },
+    "penambahan": {
+      "positif": 13,
+      "sembuh": 1,
+      "meninggal": 1
     }
   }, {
     "key": "SULAWESI TENGGARA",
@@ -1047,6 +1137,11 @@
     "lokasi": {
       "lon": 122.07031100195121,
       "lat": -4.124688793498832
+    },
+    "penambahan": {
+      "positif": 2,
+      "sembuh": 1,
+      "meninggal": 0
     }
   }, {
     "key": "DAERAH ISTIMEWA YOGYAKARTA",
@@ -1102,6 +1197,11 @@
     "lokasi": {
       "lon": 110.44487831193419,
       "lat": -7.894501850215696
+    },
+    "penambahan": {
+      "positif": 8,
+      "sembuh": 0,
+      "meninggal": 0
     }
   }, {
     "key": "KALIMANTAN BARAT",
@@ -1157,6 +1257,11 @@
     "lokasi": {
       "lon": 111.12117763730221,
       "lat": -0.08647457175645347
+    },
+    "penambahan": {
+      "positif": 0,
+      "sembuh": 0,
+      "meninggal": 0
     }
   }, {
     "key": "KEPULAUAN RIAU",
@@ -1212,6 +1317,11 @@
     "lokasi": {
       "lat": 3.916346,
       "lon": 108.261746
+    },
+    "penambahan": {
+      "positif": 0,
+      "sembuh": 0,
+      "meninggal": 0
     }
   }, {
     "key": "GORONTALO",
@@ -1267,6 +1377,11 @@
     "lokasi": {
       "lon": 122.37605812253207,
       "lat": 0.687002604326393
+    },
+    "penambahan": {
+      "positif": 2,
+      "sembuh": 0,
+      "meninggal": 2
     }
   }, {
     "key": "PAPUA BARAT",
@@ -1322,6 +1437,11 @@
     "lokasi": {
       "lon": 132.9762624116817,
       "lat": -2.045160182312363
+    },
+    "penambahan": {
+      "positif": 10,
+      "sembuh": 7,
+      "meninggal": 0
     }
   }, {
     "key": "RIAU",
@@ -1377,6 +1497,11 @@
     "lokasi": {
       "lon": 101.80510917866684,
       "lat": 0.5116478513723942
+    },
+    "penambahan": {
+      "positif": 1,
+      "sembuh": 4,
+      "meninggal": 1
     }
   }, {
     "key": "KALIMANTAN UTARA",
@@ -1432,6 +1557,11 @@
     "lokasi": {
       "lon": 116.2188791390853,
       "lat": 2.8910126208140725
+    },
+    "penambahan": {
+      "positif": 0,
+      "sembuh": 0,
+      "meninggal": 0
     }
   }, {
     "key": "LAMPUNG",
@@ -1487,6 +1617,11 @@
     "lokasi": {
       "lon": 105.0214365998642,
       "lat": -4.916792974850312
+    },
+    "penambahan": {
+      "positif": 6,
+      "sembuh": 4,
+      "meninggal": 0
     }
   }, {
     "key": "SULAWESI TENGAH",
@@ -1542,6 +1677,11 @@
     "lokasi": {
       "lon": 121.20109267528304,
       "lat": -1.0041366797829747
+    },
+    "penambahan": {
+      "positif": 0,
+      "sembuh": 0,
+      "meninggal": 0
     }
   }, {
     "key": "KEPULAUAN BANGKA BELITUNG",
@@ -1597,6 +1737,11 @@
     "lokasi": {
       "lon": 106.54993237860324,
       "lat": -2.4474441268980818
+    },
+    "penambahan": {
+      "positif": 6,
+      "sembuh": 0,
+      "meninggal": 0
     }
   }, {
     "key": "BENGKULU",
@@ -1652,6 +1797,11 @@
     "lokasi": {
       "lon": 102.33842134883429,
       "lat": -3.5335836266267204
+    },
+    "penambahan": {
+      "positif": 0,
+      "sembuh": 0,
+      "meninggal": 0
     }
   }, {
     "key": "SULAWESI BARAT",
@@ -1707,6 +1857,11 @@
     "lokasi": {
       "lon": 119.34501936431505,
       "lat": -2.4617460526098855
+    },
+    "penambahan": {
+      "positif": 0,
+      "sembuh": 4,
+      "meninggal": 0
     }
   }, {
     "key": "JAMBI",
@@ -1762,6 +1917,11 @@
     "lokasi": {
       "lon": 102.72364042732815,
       "lat": -1.6976976604117253
+    },
+    "penambahan": {
+      "positif": 0,
+      "sembuh": 0,
+      "meninggal": 0
     }
   }, {
     "key": "NUSA TENGGARA TIMUR",
@@ -1817,6 +1977,11 @@
     "lokasi": {
       "lat": -8.682205,
       "lon": 121.592271
+    },
+    "penambahan": {
+      "positif": 0,
+      "sembuh": 0,
+      "meninggal": 0
     }
   }, {
     "key": "ACEH",
@@ -1872,6 +2037,11 @@
     "lokasi": {
       "lon": 96.9105217406655,
       "lat": 4.225614627700759
+    },
+    "penambahan": {
+      "positif": 0,
+      "sembuh": 9,
+      "meninggal": 0
     }
   }]
 }

@@ -22,7 +22,7 @@ const App = () => {
   }))
   return (
     <div className="app">
-      <Title />
+      <Title date={penambahan.tanggal} />
       <div className="app-content">
         <div className="app-left">
           <Summary total={total} penambahan={penambahan} />

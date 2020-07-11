@@ -11,6 +11,9 @@ import {
   ResponsiveContainer,
   Legend,
 } from 'recharts'
+import dayjs from 'dayjs'
+
+const xAxisFormatter = (item, format = 'DD MMM') => dayjs(item).format(format)
 
 const MainChart = ({ data }) => {
   return (
@@ -22,7 +25,7 @@ const MainChart = ({ data }) => {
             <XAxis
               axisLine={false}
               tickLine={false}
-              // tickFormatter={xAxisFormatter}
+              tickFormatter={xAxisFormatter}
               dataKey="name"
               minTickGap={20}
             />
@@ -39,7 +42,7 @@ const MainChart = ({ data }) => {
             {/* {children} */}
             <Line
               strokeWidth={2}
-              dot={{ r: 2 }}
+              dot={{ r: 0 }}
               name="Confirmed"
               type="natural"
               dataKey="confirmed"
@@ -49,7 +52,7 @@ const MainChart = ({ data }) => {
             />
             <Line
               strokeWidth={2}
-              dot={{ r: 2 }}
+              dot={{ r: 0 }}
               name="Recovered"
               type="natural"
               dataKey="recovered"
@@ -59,7 +62,7 @@ const MainChart = ({ data }) => {
             />
             <Line
               strokeWidth={2}
-              dot={{ r: 2 }}
+              dot={{ r: 0 }}
               name="Deaths"
               type="natural"
               dataKey="deaths"
@@ -69,7 +72,7 @@ const MainChart = ({ data }) => {
             />
             <Line
               strokeWidth={2}
-              dot={{ r: 2 }}
+              dot={{ r: 0 }}
               name="On Treatment"
               type="natural"
               dataKey="treatment"
@@ -78,7 +81,10 @@ const MainChart = ({ data }) => {
               activeDot={{ r: 6 }}
             />
             <Legend />
-            <Tooltip isAnimationActive={false} />
+            <Tooltip
+              labelFormatter={(item) => xAxisFormatter(item, 'DD MMM YYYY')}
+              isAnimationActive={false}
+            />
           </LineChart>
         </ResponsiveContainer>
       </div>
@@ -89,7 +95,7 @@ const MainChart = ({ data }) => {
             <XAxis
               axisLine={false}
               tickLine={false}
-              // tickFormatter={xAxisFormatter}
+              tickFormatter={xAxisFormatter}
               dataKey="name"
               minTickGap={20}
             />
@@ -102,7 +108,7 @@ const MainChart = ({ data }) => {
             {/* {children} */}
             <Line
               strokeWidth={2}
-              dot={{ r: 2 }}
+              dot={{ r: 0 }}
               name="Confirmed"
               type="natural"
               dataKey="confirmedCumm"
@@ -112,7 +118,7 @@ const MainChart = ({ data }) => {
             />
             <Line
               strokeWidth={2}
-              dot={{ r: 2 }}
+              dot={{ r: 0 }}
               name="Recovered"
               type="natural"
               dataKey="recoveredCumm"
@@ -122,7 +128,7 @@ const MainChart = ({ data }) => {
             />
             <Line
               strokeWidth={2}
-              dot={{ r: 2 }}
+              dot={{ r: 0 }}
               name="Deaths"
               type="natural"
               dataKey="deathsCumm"
@@ -132,7 +138,7 @@ const MainChart = ({ data }) => {
             />
             <Line
               strokeWidth={2}
-              dot={{ r: 2 }}
+              dot={{ r: 0 }}
               name="On Treatment"
               type="natural"
               dataKey="treatmentCumm"
@@ -141,7 +147,10 @@ const MainChart = ({ data }) => {
               activeDot={{ r: 6 }}
             />
             <Legend />
-            <Tooltip isAnimationActive={false} />
+            <Tooltip
+              labelFormatter={(item) => xAxisFormatter(item, 'DD MMM YYYY')}
+              isAnimationActive={false}
+            />
           </LineChart>
         </ResponsiveContainer>
       </div>

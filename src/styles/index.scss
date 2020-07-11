@@ -160,3 +160,17 @@
     }
   }
 }
+
+.app-location__show {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    &:focus {
+      outline: none;
+    }
+  }
+}

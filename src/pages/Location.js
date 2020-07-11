@@ -11,6 +11,7 @@ const types = {
 
 const Location = ({ locations }) => {
   const [type, setType] = useState('confirmed')
+  const [show, setShow] = useState(false)
   const highestConfirmed =
     locations.reduce(
       (prev, curr) => (curr[types[type]] >= prev ? curr[types[type]] : prev),
@@ -60,25 +61,32 @@ const Location = ({ locations }) => {
         </PieChart>
       </ResponsiveContainer>
       <div className="app-location__list">
-        {locations.map((loc, index) => (
-          <div key={loc.key} className="app-location__item">
-            <div className="app-location__item-left">
-              <div className="app-location__item-title">
-                {loc.key === 'DKI JAKARTA'
-                  ? 'DKI Jakarta'
-                  : loc.key.toLowerCase()}
+        {locations.map((loc, index) =>
+          show || (!show && index < 15) ? (
+            <div key={loc.key} className="app-location__item">
+              <div className="app-location__item-left">
+                <div className="app-location__item-title">
+                  {loc.key === 'DKI JAKARTA'
+                    ? 'DKI Jakarta'
+                    : loc.key.toLowerCase()}
+                </div>
+                <div
+                  className="app-location__item-bar"
+                  style={{
+                    borderBottomColor: COLORS[index % COLORS.length],
+                    width: `${(loc[types[type]] / highestConfirmed) * 100}%`,
+                  }}
+                />
               </div>
-              <div
-                className="app-location__item-bar"
-                style={{
-                  borderBottomColor: COLORS[index % COLORS.length],
-                  width: `${(loc[types[type]] / highestConfirmed) * 100}%`,
-                }}
-              />
+              <div>{loc[types[type]]}</div>
             </div>
-            <div>{loc[types[type]]}</div>
-          </div>
-        ))}
+          ) : null,
+        )}
+      </div>
+      <div className="app-location__show">
+        <button type="button" onClick={() => setShow(!show)}>
+          Show {show ? 'Less' : 'More'}
+        </button>
       </div>
     </div>
   )
