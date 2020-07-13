@@ -1,8 +1,15 @@
 @import './modules/normalize';
 @import './modules/global';
+@import './modules/responsive';
 
 .app {
   padding: 5em;
+  @include respond-to(sm) {
+    padding: 5em 1.2em;
+  }
+  @include respond-to(xs) {
+    padding: 5em 1.4em;
+  }
 }
 
 .app-summary {
@@ -10,6 +17,10 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  @include respond-to(xs) {
+    margin: 0 -0.2em;
+    flex-wrap: wrap;
+  }
 }
 
 .app-title__title {
@@ -58,6 +69,18 @@
     margin: 0;
     color: rgba($color: #fff, $alpha: 0.8);
   }
+  @include respond-to(sm) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  @include respond-to(xs) {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0.2em;
+    height: 150px;
+    width: calc(50% - 0.4em);
+  }
 }
 
 .app-summary__item-icon {
@@ -67,6 +90,13 @@
 .app-summary__item-number {
   font-size: 2.2rem;
   font-weight: bold;
+  @include respond-to(sm) {
+    margin-bottom: 0.5em;
+  }
+  @include respond-to(xs) {
+    margin-bottom: 0.5em;
+    font-size: 1.8rem;
+  }
 }
 
 .--bold {
@@ -80,6 +110,9 @@
 
 .app-left {
   width: 70%;
+  @include respond-to(xs) {
+    width: 100%;
+  }
 }
 
 .app-chart__main-title {
@@ -92,11 +125,18 @@
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 3em;
+  @include respond-to(xs) {
+    flex-direction: column;
+  }
 }
 
 .app-location {
-  width: 30%;
+  width: calc(30% - 2em);
   margin-left: 2em;
+  @include respond-to(xs) {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 .app-location__list {
