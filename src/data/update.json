@@ -1,19 +1,19 @@
 {
   "data": {
     "id": 1,
-    "jumlah_odp": 34486,
-    "jumlah_pdp": 14515,
-    "total_spesimen": 1061367,
-    "total_spesimen_negatif": 545388
+    "jumlah_odp": 46493,
+    "jumlah_pdp": 0,
+    "total_spesimen": 1175462,
+    "total_spesimen_negatif": 600675
   },
   "update": {
     "penambahan": {
-      "jumlah_positif": 1681,
-      "jumlah_meninggal": 71,
-      "jumlah_sembuh": 919,
-      "jumlah_dirawat": 691,
-      "tanggal": "2020-07-12",
-      "created": "2020-07-12 16:17:01"
+      "jumlah_positif": 1462,
+      "jumlah_meninggal": 84,
+      "jumlah_sembuh": 1489,
+      "jumlah_dirawat": -111,
+      "tanggal": "2020-07-17",
+      "created": "2020-07-17 16:12:06"
     },
     "harian": [{
       "key_as_string": "2020-03-02T00:00:00.000Z",
@@ -3739,12 +3739,152 @@
       "jumlah_dirawat_kum": {
         "value": 36455
       }
+    }, {
+      "key_as_string": "2020-07-13T00:00:00.000Z",
+      "key": 1594598400000,
+      "doc_count": 1,
+      "jumlah_meninggal": {
+        "value": 50
+      },
+      "jumlah_sembuh": {
+        "value": 1051
+      },
+      "jumlah_positif": {
+        "value": 1282
+      },
+      "jumlah_dirawat": {
+        "value": 181
+      },
+      "jumlah_positif_kum": {
+        "value": 76981
+      },
+      "jumlah_sembuh_kum": {
+        "value": 36689
+      },
+      "jumlah_meninggal_kum": {
+        "value": 3656
+      },
+      "jumlah_dirawat_kum": {
+        "value": 36636
+      }
+    }, {
+      "key_as_string": "2020-07-14T00:00:00.000Z",
+      "key": 1594684800000,
+      "doc_count": 1,
+      "jumlah_meninggal": {
+        "value": 54
+      },
+      "jumlah_sembuh": {
+        "value": 947
+      },
+      "jumlah_positif": {
+        "value": 1591
+      },
+      "jumlah_dirawat": {
+        "value": 590
+      },
+      "jumlah_positif_kum": {
+        "value": 78572
+      },
+      "jumlah_sembuh_kum": {
+        "value": 37636
+      },
+      "jumlah_meninggal_kum": {
+        "value": 3710
+      },
+      "jumlah_dirawat_kum": {
+        "value": 37226
+      }
+    }, {
+      "key_as_string": "2020-07-15T00:00:00.000Z",
+      "key": 1594771200000,
+      "doc_count": 1,
+      "jumlah_meninggal": {
+        "value": 87
+      },
+      "jumlah_sembuh": {
+        "value": 1414
+      },
+      "jumlah_positif": {
+        "value": 1522
+      },
+      "jumlah_dirawat": {
+        "value": 21
+      },
+      "jumlah_positif_kum": {
+        "value": 80094
+      },
+      "jumlah_sembuh_kum": {
+        "value": 39050
+      },
+      "jumlah_meninggal_kum": {
+        "value": 3797
+      },
+      "jumlah_dirawat_kum": {
+        "value": 37247
+      }
+    }, {
+      "key_as_string": "2020-07-16T00:00:00.000Z",
+      "key": 1594857600000,
+      "doc_count": 1,
+      "jumlah_meninggal": {
+        "value": 76
+      },
+      "jumlah_sembuh": {
+        "value": 1295
+      },
+      "jumlah_positif": {
+        "value": 1574
+      },
+      "jumlah_dirawat": {
+        "value": 203
+      },
+      "jumlah_positif_kum": {
+        "value": 81668
+      },
+      "jumlah_sembuh_kum": {
+        "value": 40345
+      },
+      "jumlah_meninggal_kum": {
+        "value": 3873
+      },
+      "jumlah_dirawat_kum": {
+        "value": 37450
+      }
+    }, {
+      "key_as_string": "2020-07-17T00:00:00.000Z",
+      "key": 1594944000000,
+      "doc_count": 1,
+      "jumlah_meninggal": {
+        "value": 84
+      },
+      "jumlah_sembuh": {
+        "value": 1489
+      },
+      "jumlah_positif": {
+        "value": 1462
+      },
+      "jumlah_dirawat": {
+        "value": -111
+      },
+      "jumlah_positif_kum": {
+        "value": 83130
+      },
+      "jumlah_sembuh_kum": {
+        "value": 41834
+      },
+      "jumlah_meninggal_kum": {
+        "value": 3957
+      },
+      "jumlah_dirawat_kum": {
+        "value": 37339
+      }
     }],
     "total": {
-      "jumlah_positif": 75699,
-      "jumlah_dirawat": 36455,
-      "jumlah_sembuh": 35638,
-      "jumlah_meninggal": 3606
+      "jumlah_positif": 83130,
+      "jumlah_dirawat": 37339,
+      "jumlah_sembuh": 41834,
+      "jumlah_meninggal": 3957
     }
   }
 }
